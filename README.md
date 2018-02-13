@@ -66,6 +66,20 @@ For example, you could modify:
 Don't feel restricted to these examples; make any attributes adjustable that you
 want!
 
+## Examples from last year (Click to go to live demo)
+
+Andrea Lin:
+
+[![](andreaLin.png)](http://andrea-lin.com/Project3-LSystems/)
+
+Tabatha Hickman:
+
+[![](tabathaHickman.png)](https://tabathah.github.io/Project3-LSystems/)
+
+Joe Klinger:
+
+[![](joeKlinger.png)](https://klingerj.github.io/Project3-LSystems/)
+
 ## Extra Credit (Up to 20 points)
 For bonus points, add functionality to your L-system drawing that ensures
 geometry will never overlap. In other words, make your plant behave like a
