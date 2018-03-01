@@ -3537,7 +3537,7 @@ function loadScene(axiom, iteration, angle, leafDensity) {
     birdScene.create();
     // load grass scene
     grassScene = new __WEBPACK_IMPORTED_MODULE_10__Scene__["a" /* Scene */]();
-    grassMesh = loadObj("/src/obj/Grass2.obj");
+    grassMesh = loadObj("./obj/Grass2.obj");
     let scale = 30;
     for (let x = -1 * scale; x < scale; x += 5) {
         for (let z = -1 * scale; z < scale; z += 5) {
@@ -15578,11 +15578,11 @@ class DrawTree {
     }
     loadObj() {
         this.OBJ = __webpack_require__(20);
-        var data = this.readTextFile("/src/obj/cylinder.obj");
+        var data = this.readTextFile("./obj/cylinder.obj");
         this.cylinderMesh = new this.OBJ.Mesh(data);
-        data = this.readTextFile("/src/obj/Leaf.obj");
+        data = this.readTextFile("./obj/Leaf.obj");
         this.leafMesh = new this.OBJ.Mesh(data);
-        data = this.readTextFile("/src/obj/crowMaya.obj");
+        data = this.readTextFile("./obj/crowMaya.obj");
         this.crowMesh = new this.OBJ.Mesh(data);
     }
     readTextFile(dir) {
