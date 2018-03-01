@@ -64,7 +64,7 @@ function loadScene(axiom: string, iteration: number, angle: number, leafDensity:
 
   // load grass scene
   grassScene = new Scene();
-  grassMesh = loadObj("/src/obj/Grass2.obj");
+  grassMesh = loadObj("./obj/Grass2.obj");
 
   let scale = 30;
   for (let x = -1 * scale; x < scale; x += 5) {

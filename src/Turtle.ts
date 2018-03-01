@@ -86,13 +86,13 @@ class DrawTree {
     public loadObj() {
         this.OBJ = require('webgl-obj-loader');
 
-        var data = this.readTextFile("/src/obj/cylinder.obj");
+        var data = this.readTextFile("./src/obj/cylinder.obj");
         this.cylinderMesh = new this.OBJ.Mesh(data);
 
-        data = this.readTextFile("/src/obj/Leaf.obj");
+        data = this.readTextFile("./src/obj/Leaf.obj");
         this.leafMesh = new this.OBJ.Mesh(data);
 
-        data = this.readTextFile("/src/obj/crowMaya.obj");
+        data = this.readTextFile("./src/obj/crowMaya.obj");
         this.crowMesh = new this.OBJ.Mesh(data);
 
     }
