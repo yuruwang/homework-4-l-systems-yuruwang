@@ -15578,11 +15578,11 @@ class DrawTree {
     }
     loadObj() {
         this.OBJ = __webpack_require__(20);
-        var data = this.readTextFile("./obj/cylinder.obj");
+        var data = this.readTextFile("./src/obj/cylinder.obj");
         this.cylinderMesh = new this.OBJ.Mesh(data);
-        data = this.readTextFile("./obj/Leaf.obj");
+        data = this.readTextFile("./src/obj/Leaf.obj");
         this.leafMesh = new this.OBJ.Mesh(data);
-        data = this.readTextFile("./obj/crowMaya.obj");
+        data = this.readTextFile("./src/obj/crowMaya.obj");
         this.crowMesh = new this.OBJ.Mesh(data);
     }
     readTextFile(dir) {
