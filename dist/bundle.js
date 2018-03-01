@@ -3537,7 +3537,7 @@ function loadScene(axiom, iteration, angle, leafDensity) {
     birdScene.create();
     // load grass scene
     grassScene = new __WEBPACK_IMPORTED_MODULE_10__Scene__["a" /* Scene */]();
-    grassMesh = loadObj("./obj/Grass2.obj");
+    grassMesh = loadObj("./src/obj/Grass2.obj");
     let scale = 30;
     for (let x = -1 * scale; x < scale; x += 5) {
         for (let z = -1 * scale; z < scale; z += 5) {
